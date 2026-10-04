@@ -10,11 +10,17 @@
       content="Exclusive prom dress pop up events for Year 11 students. Try on premium gowns in person, with expert styling and parent friendly guidance."
     />
     <meta name="theme-color" content="#0b0608" />
+    <script>
+      // Apply a saved light theme before first paint so the page never flashes dark.
+      try {
+        if (localStorage.getItem('pf-theme') === 'light') document.documentElement.dataset.theme = 'light';
+      } catch (e) {}
+    </script>
     <link rel="icon" type="image/png" href="/promfever-preview/icon.png" />
     <link rel="apple-touch-icon" href="/promfever-preview/icon.png" />
     <link rel="preload" as="image" href="/promfever-preview/img/carpet-four.webp" type="image/webp" media="(min-width: 768px)" />
-    <script type="module" crossorigin src="/promfever-preview/assets/index-Bc_2YSlv.js"></script>
-    <link rel="stylesheet" crossorigin href="/promfever-preview/assets/index-BiIL2tZl.css">
+    <script type="module" crossorigin src="/promfever-preview/assets/index-680LXqYG.js"></script>
+    <link rel="stylesheet" crossorigin href="/promfever-preview/assets/index-Bp9l1Z2Q.css">
   </head>
   <body>
     <div id="root"></div>
